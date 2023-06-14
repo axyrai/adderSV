@@ -1,5 +1,5 @@
 # vsim -vopt work.adder_tb -voptargs="+acc=npr" -assertdebug -l adder.log -sva -coverage -c -do "log -r /*; add wave -r /*; coverage save -onexit -assert -directive -cvg -codeAll adder_coverage.ucdb; run -all; exit" -wlf adder.wlf 
-# Start time: 12:07:50 on Jun 14,2023
+# Start time: 12:43:04 on Jun 14,2023
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # //  Questa Sim
 # //  Version 10.6c linux Jul 25 2017
@@ -25,5 +25,5 @@
 # ** Note: $finish    : adder_tb.sv(20)
 #    Time: 300 ns  Iteration: 0  Instance: /adder_tb
 # Saving coverage database on exit...
-# End time: 12:08:11 on Jun 14,2023, Elapsed time: 0:00:21
+# End time: 12:43:24 on Jun 14,2023, Elapsed time: 0:00:20
 # Errors: 0, Warnings: 0
